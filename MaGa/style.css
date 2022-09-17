@@ -35,10 +35,10 @@ main {
     background: linear-gradient(
         to left bottom        , 
         rgba(255, 255, 255, 0.698),
-        rgba(67, 101, 113, 0.8)
+        rgba(161, 217, 238, 0.8)
          );
-    top: -10%;
-    right: 68%;
+    top: -11.5%;
+    right: 75%;
     position: absolute; 
 }
 
@@ -46,9 +46,36 @@ main {
     background: linear-gradient(
         to right top, 
         rgba(255, 255, 255, 0.698),
-        rgba(67, 101, 113, 0.8)
+        rgba(161, 217, 238, 0.8)
          );
     position: absolute;
-    top: -2%;
-    right: 83%;
+    top: -8%;
+    right: 88%;
+}
+
+.menu {
+    background-color:  rgba(248, 244, 244, 0.923);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+p {
+    color: black;
+    font-weight: 900;
+    font-size: 12px;
+    z-index: 4;
+    padding-top: 3px;
+    margin-right: 275px;
+}
+
+img {
+    color: black;
+    height: 20px;
+    width: 20px;
+    font-weight: 900;
+    padding-top: 3px;
+    padding-right: 4px;
+    margin-right: 2px;
 }

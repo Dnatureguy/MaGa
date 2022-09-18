@@ -23,7 +23,8 @@ main {
     min-height: 70vh;
     width: 28%;
     background: rgba(248, 244, 244, 0.923);
-    box-shadow: 1px 1px 6px 6px rgba(176, 176, 176, 0.863);  
+    /* box-shadow: 1px 1px 6px 6px rgba(176, 176, 176, 0.863);   */
+    box-shadow: 1px 1px 6px 6px rgba(201, 199, 199, 0.863);  
     position: relative;  /*This is used so that the container can be moved around*/
 }
 
@@ -63,16 +64,6 @@ main {
     justify-content: flex-end;
 }
 
-.body {
-    background-color: rgba(248, 244, 244, 0.923);
-    height: 60vh;
-    width: 100%;
-    display: flex;
-    justify-content: column;
-    align-items: center;
-    flex-direction: column;
-}
-
 .time{
     color: black;
     font-weight: 900;
@@ -92,54 +83,8 @@ img {
     margin-right: 2px;
 }
 
-/* Onboarding Process */
-.card-people {
-    height: 200px;
-    width: 350px;
-    margin-bottom: 200px;
-}
-
-h3 {
-    font-size: 14px;
-    margin-top: -200px;
-}
-
-.property {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.write-up {
-    font-size: 10px;
-    display: flex;
-    justify-self: center;
-    align-self: center;
-    font-weight: 200;
-    margin-right: -10px;
-    margin-top: 10px;
-}
-
-.button {
-    background-color:   rgba(26, 111, 142, 0.8);
-    border: none;
-    color: white;
-    padding: 12px 24px;
-    height: 3rem;
-    width: 14rem;    
-    font-size: 8px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 50px;
-    cursor: pointer;
-    margin: 15px;
-  }
-
-  /* Register Page */
-  .body-register {
-    background-color: black;
+.body {
+    background-color: rgba(248, 244, 244, 0.923);
     height: 60vh;
     width: 100%;
     display: flex;
@@ -148,8 +93,45 @@ h3 {
     flex-direction: column;
 }
 
-body-p{
-    display: flex;
-    align-self: center;
-    color: white;
+h3, h4 {
+    margin: 10px;
 }
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    width: 130%;
+    padding: 9px 16px; 
+    display: inline-block;
+    border: 3px solid rgba(26, 111, 142, 0.8);
+    border-radius: 50px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: rgba(26, 111, 142, 0.8);
+    color: white;
+    font-size: medium;
+    padding: 14px 20px;
+    margin: 25px 0;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+.sign-in {
+    font-weight: 600;
+}  
+
+span > a {
+    color: rgba(26, 111, 142, 0.8);
+    text-decoration: none;
+}
+

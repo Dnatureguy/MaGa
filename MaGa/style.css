@@ -18,8 +18,8 @@ main {
 }
 
 .opening{
-    min-height: 80vh;
-    width: 28%;
+    min-height: 70vh;
+    width: 25%;
     background: rgba(248, 244, 244, 0.923);
     box-shadow: 1px 1px 6px 6px rgba(176, 176, 176, 0.863);  
     position: relative;  /*This is used so that the container can be moved around*/
@@ -55,25 +55,79 @@ main {
 
 .menu {
     background-color:  rgba(248, 244, 244, 0.923);
-    height: 50px;
+    height: 13vh;
     width: 100%;
     display: flex;
     justify-content: flex-end;
 }
 
-p {
+.body {
+    background-color: rgba(248, 244, 244, 0.923);
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: column;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-people {
+    height: 200px;
+    width: 350px;
+    margin-bottom: 200px;
+}
+
+h3 {
+    font-size: 14px;
+    margin-top: -200px;
+}
+
+.property {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.write-up {
+    font-size: 10px;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    font-weight: 200;
+    margin-right: -10px;
+    margin-top: 10px;
+}
+
+.button {
+    background-color:   rgba(26, 111, 142, 0.8);
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    height: 3rem;
+    width: 14rem;    
+    font-size: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 15px;
+  }
+
+.time{
     color: black;
     font-weight: 900;
-    font-size: 12px;
+    font-size: 14px;
     z-index: 4;
     padding-top: 3px;
-    margin-right: 275px;
+    margin-right: 255px;
 }
 
 img {
     color: black;
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
     font-weight: 900;
     padding-top: 3px;
     padding-right: 4px;

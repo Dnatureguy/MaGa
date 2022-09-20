@@ -20,7 +20,7 @@ main {
 }
 
 .opening{
-    min-height: 70vh;
+    min-height: 80vh;
     width: 28%;
     background: rgba(248, 244, 244, 0.923);
     /* box-shadow: 1px 1px 6px 6px rgba(176, 176, 176, 0.863);   */
@@ -102,3 +102,53 @@ h2 {
     width: 170px;
 }
 
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+input {
+    width: 120%;
+    padding: 9px 16px; 
+    display: inline-block;
+    border: 1.5px solid rgba(26, 111, 142, 0.8);
+    border-radius: 50px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+#forgot {
+    color: rgba(26, 111, 142, 0.8);
+    font-size: 0.7rem;
+    text-decoration: none;
+}
+
+.button {
+    background-color:   rgba(26, 111, 142, 0.8);
+    border: none;
+    color: white;
+    padding: 8px 24px;
+    height: 2.3rem;
+    width: 12rem;    
+    font-size: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 10px;
+  }
+
+.sign-up {
+    font-weight: 600;
+    margin-top: 10px;
+}  
+
+span > a {
+    color: rgba(26, 111, 142, 0.8);
+    text-decoration: none;
+}

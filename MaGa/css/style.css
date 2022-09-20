@@ -20,7 +20,7 @@ main {
 }
 
 .opening{
-    min-height: 70vh;
+    min-height: 80vh;
     width: 28%;
     background: rgba(248, 244, 244, 0.923);
     box-shadow: 1px 1px 6px 6px rgba(201, 199, 199, 0.863);    

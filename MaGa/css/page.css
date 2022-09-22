@@ -115,4 +115,148 @@ img {
     justify-content: column;
     align-items: center;
     flex-direction: column;
+    position: relative;
 }
+
+.clock {
+    background-color: rgba(248, 244, 244, 0.923);
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 5%;
+    border: 1px solid rgba(248, 244, 244, 0.923);
+    box-shadow: 2px 2px 2px 2px rgb(207, 199, 199);
+    position: relative;
+}
+
+.clock > p {
+    font-weight: 600;
+}
+
+.twelve {
+    position: absolute;
+    top: 3%;
+    left: 45%;
+}
+
+.nine {
+    position: absolute;
+    bottom: 43%;
+    left: 2%;
+}
+
+.six {
+    position: absolute;
+    top: 90%;
+    left: 48%;
+}
+
+.three {
+    position: absolute;
+    bottom: 43%;
+    left: 90%;
+}
+
+.clock::before {
+    position: absolute;
+    content: '';
+    height: 40px;
+    width: 3px;
+    background: black;
+    top: 50%;
+    left: calc(50% - 5px);
+    border-radius: 5px;
+    animation: spin 60s linear infinite;
+    transform-origin: top;
+}
+
+.clock::after {
+    position: absolute;
+    content: '';
+    height: 20px;
+    width: 3px;
+    background: black;
+    top: 50%;
+    left: calc(50% - 5px);
+    border-radius: 5px;
+    animation: spin 3600s linear infinite;
+    transform-origin: top;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(-180deg)
+    }
+    100% {
+        transform: rotate(180deg)
+    }
+}
+
+.body::before {
+    content: '';
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #b06a26;
+    left: 49.2%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+
+}
+
+.box {
+    height: 42%;
+    width: 80%;
+    background-color: rgba(248, 244, 244, 0.923);
+    position: absolute;
+    top: 53%;
+    border-radius: 25px;
+    border: 1px solid rgba(248, 244, 244, 0.923);
+    box-shadow: 2px 2px 2px 2px rgb(217, 217, 217);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul.list {
+    list-style-type: square;
+    list-style: -webkit-linear-gradient();
+}
+
+ul {
+    margin: 10px;
+    font-size: 1rem;
+    list-style-image: linear-gradient(to left bottom,rgba(26, 111, 142, 0.8), rgba(26, 111, 142, 0.8));
+    list-style-image: ;
+}
+
+ul > li {
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* body::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: black;
+    left: 50%;
+    top: calc(50% - 50px);
+    z-index: 2;
+    transform: translateX(-50%);
+    box-shadow: 140px 145px 0 0 black, -140px 145px 0 0 black, 0 280px 0 0 black;
+} */

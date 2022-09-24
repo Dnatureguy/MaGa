@@ -201,7 +201,7 @@ img {
     border-radius: 50%;
     background: #b06a26;
     left: 49.2%;
-    top: 25%;
+    top: 23%;
     transform: translate(-50%, -50%);
     z-index: 1;
 
@@ -217,24 +217,62 @@ img {
     border: 1px solid rgba(248, 244, 244, 0.923);
     box-shadow: 2px 2px 2px 2px rgb(217, 217, 217);
     display: flex;
-    justify-content: space-evenly;
 }
 
-ul.list {
+.boxers {
+    display: flex;
+    flex-direction: column;
+}
+
+.boxes {
+    margin: 10px;
+    position: relative;
+    top: 0.5rem;
+    left: 0.8rem;
+    height: 23px;
+    width: 25px;
+    background-color: rgba(248, 244, 244, 0.923);
+    border: 2px solid rgba(26, 111, 142, 0.8);
+    
+}
+
+.todo {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.todos {
+    align-self: center;
+    margin: 13px;
+    position: relative;
+    top: -1em;
+    left: 0.8rem;
+    font-size: 10px;
+    font-weight: 800;
+}
+
+
+
+
+
+
+/* ul.list {
     list-style-type: square;
     list-style: -webkit-linear-gradient();
+    margin: 10px;
 }
 
 ul {
     margin: 10px;
     font-size: 1rem;
     list-style-image: linear-gradient(to left bottom,rgba(26, 111, 142, 0.8), rgba(26, 111, 142, 0.8));
-    list-style-image: ;
+    list-style-image: ; 
 }
 
-ul > li {
+/* ul > li {
     margin: 10px;
-}
+} */ 
 
 
 
